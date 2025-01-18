@@ -50,9 +50,9 @@ public class RegistrationActivity extends AppCompatActivity {
                 profileUpdate.put("Phone", phone.getText().toString());
                 profileUpdate.put("City", city.getText().toString());
                 profileUpdate.put("Password", password.getText().toString());
-                profileUpdate.put("MSG-email", false);        // Disable email notifications
+                profileUpdate.put("MSG-email", true);        // Disable email notifications
                 profileUpdate.put("MSG-push", true);          // Enable push notifications
-                profileUpdate.put("MSG-sms", false);          // Disable SMS notifications
+                profileUpdate.put("MSG-sms", true);          // Disable SMS notifications
                 profileUpdate.put("MSG-whatsapp", true);      // Enable WhatsApp notifications
 
                 // Clevertap onUserLogin Function

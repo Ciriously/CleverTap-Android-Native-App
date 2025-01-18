@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="clever_red">#F04444</color>
-    <color name="link_blue">#2196F3</color>
-    <color name="darker_grey">#333333</color>
-    <color name="transparent">#00FFFFFF</color>'
+    <!-- Primary Colors -->
+    <color name="black">#FF000000</color> <!-- Black color -->
+    <color name="white">#FFFFFFFF</color> <!-- White color -->
+    <color name="clever_red">#F04444</color> <!-- Clever Red color -->
+    <color name="link_blue">#2196F3</color> <!-- Link Blue color -->
+    <color name="darker_grey">#333333</color> <!-- Darker Grey color -->
+
+    <!-- Transparent Color -->
+    <color name="transparent">#00FFFFFF</color> <!-- Transparent color -->
+
+    <!-- Background Color -->
+    <color name="background_color">#F5F5F5</color> <!-- Light gray background -->
+
+    <!-- Button Background Colors -->
+    <color name="button_background">#6200EE</color> <!-- Default button purple -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White text color for buttons -->
+
+    <!-- Black color for the Log Out button -->
+    <color name="log_out_button_background">#000000</color> <!-- Black for Log Out button background -->
+
+    <!-- Primary Text Color -->
+    <color name="primary_text">#000000</color> <!-- Black for primary text -->
 </resources>

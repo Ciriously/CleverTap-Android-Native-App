@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button background color -->
+    <solid android:color="@color/black" /> <!-- Black background -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="16dp" /> <!-- Smooth rounded corners -->
+
+    <!-- Shadow or elevation effect -->
+    <elevation android:value="4dp" /> <!-- Optional: adds shadow for a floating effect -->
+</shape>

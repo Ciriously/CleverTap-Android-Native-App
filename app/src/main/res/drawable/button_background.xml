@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button background color -->
+    <solid android:color="@color/button_background" /> <!-- Use the color you defined in colors.xml -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="12dp" />
+
+    <!-- Shadow or elevation effect -->
+    <elevation android:value="4dp" />
+</shape>

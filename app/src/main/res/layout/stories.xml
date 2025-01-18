@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Circular Image View -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_story"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/clevertap_icon"
+        app:civ_border_color="#D86FE86B"
+        app:civ_border_width="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/circle_story"
+        android:layout_alignEnd="@+id/circle_story"
+        android:layout_marginTop="2dp"
+        android:text="Story title"
+        android:textColor="#FF000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/circle_story"
+        app:layout_constraintStart_toStartOf="@id/circle_story"
+        app:layout_constraintTop_toBottomOf="@id/circle_story" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

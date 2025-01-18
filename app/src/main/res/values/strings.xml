@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CleverApp</string>
+    <string name="registration">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password">Password</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="city">City</string>
+    <string name="enter_city">Enter City</string>
+    <string name="phone">Phone</string>
+    <string name="login">Login</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="email_id">Email ID</string>
+    <string name="dont_have_account"><u>Don\'t have an account?</u></string>
+    <string name="already_have_account"><u>Already have an account?</u></string>
+    <string name="identity">Identity</string>
+    <string name="enter_identity">Enter Identity</string>
+</resources>
